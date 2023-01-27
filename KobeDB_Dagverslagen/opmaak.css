@@ -2,27 +2,109 @@ li {
     display: inline;
     margin-right: 15px;
 }
+a{
+    color: #ea148c;
+    text-size-adjust: 14pt;
+}
 nav a {
     border: solid 2px;
     border-radius: 10px;
     padding: 10px;
     text-align: center;
     text-decoration: none;
+    font-size: 18pt;
 }
-
+#ArticleHome{
+    margin: 0xp 0px 0px 0px;
+    padding: 0px 0px 0px 0px;
+    width: 99%;
+}
+#H1Home{
+    color:#35f0fa;
+    background-color: #400843;
+    Padding-left: 40px;
+    Padding-bottom: 40px;
+    Padding-top: 0px;
+    margin-top: 1px;
+    border-radius: 10px;
+    margin-bottom: 1px;
+}
+nav{
+    padding-top: 50px;
+    background-color:#dffdff;
+    height: 100px;
+    width: 100%;
+    margin: 0px 0px 0px 0px;
+    border-radius: 10px;
+}
+a:link{
+    text-decoration: none;
+}
+a:hover{
+    color: #400843;
+    font-weight: bolder;
+    border: solid 3px;
+}
+a:active{
+    color: #35f0fa;
+}
 h1{
-    margin-left: 40px;
-    margin-bottom: 40px;
-    margin-top: 40px;
+    color:#400843;
+    background-color: #dffdff;
+    Padding-left: 20px;
+    Padding-bottom: 40px;
+    Padding-top: 40px;
+    margin-top: 1px;
+    border-radius: 10px;
+}
+h2{
+    color:#ea148c;
+    padding: 5px 10px 5px 0px;
+    font-size: 20pt;
+}
+section{
+    color: #400843;
+    padding: 5px 10px 5px 20px;
 }
 article{
-    width: 70%;
-    padding-left: 40px;
+    width: 72%;
+    padding-right: 40px;
+    border-radius: 10px;
 }
 aside{
     float: right;
     width: 25%;
 }
 footer{
-    margin-left: 40px;
+    color:#400843;
+}
+body{
+    background-color: #dffdff;
+    padding-left: 0px;
+}
+#AsideContactgegevens{
+    border: solid 2px;
+    border-radius: 10px;
+    padding: 0px 10px 10px 10px;
+    font-size: 17pt;
+    width: 20%;
+}
+#AsideH2{
+    padding-top: 0px;
+}
+.Home{
+    background-color: #400843;
+}
+.LinkH:hover{
+    color: #35f0fa;
+}
+#FooterH{
+    color: #35f0fa;
+}
+#PlaySport{
+    border: none;
+    color: #400843;
+}
+#PlaySport:hover{
+    text-decoration: underline;
 }
